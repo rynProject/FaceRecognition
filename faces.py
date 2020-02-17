@@ -45,7 +45,7 @@ while True:
             myconn.commit()
 
             print("{} data ditambahkan".format(cursor.rowcount))
-        cv2.imshow('Absen', frame)
+        cv2.imshow('Face Detection', frame)
         k = cv2.waitKey(20) & 0xff
         if k == ord('q'):
             break
