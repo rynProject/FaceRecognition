@@ -1,4 +1,4 @@
-#Face Recognition
+# Face Recognition
 
-##face recognition using python and mysql
+## face recognition using python and mysql
 
