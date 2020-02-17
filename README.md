@@ -14,5 +14,5 @@ The absorption system uses face recognition and stores the results in the MySQL 
    will add a new file in the form of train.yml
 4. run faces.
 
-##make sure the webcam is active
+## make sure the webcam is active
 
