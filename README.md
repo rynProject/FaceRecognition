@@ -2,10 +2,6 @@
 
 face recognition using python and mysql
 
-## Getting Started
-
-The absorption system uses face recognition and stores the results in the MySQL database
-
 ## Instalation
 
 1. create a database face recognition
