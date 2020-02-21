@@ -57,12 +57,12 @@ while True:
            cv2.putText(frame, name, (x, y), font, 1, color, stroke, cv2.LINE_AA)
            cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), (2))
 
-           select_date = "SELECT DAY(tanggal), MONTH(tanggal), YEAR(tanggal), nama FROM absen WHERE nama='%s'" % (name)
-           nama = cursor.execute(select_date)
-           result_name = cursor.fetchall()
+           select = "SELECT DAY(tanggal), MONTH(tanggal), YEAR(tanggal), nama FROM absen WHERE nama='%s'" % (name)
+           nama = cursor.execute(select)
+           result = cursor.fetchall()
            data = "error"
 
-           for x in result_name:
+           for x in result:
                data = x
 
            if data == "error":
